@@ -90,6 +90,9 @@ body {
     max-width: 574px;
   }
 }
+.relativ {
+  position: relative;
+}
 .fruits-list {
   display: flex;
   flex-wrap: wrap;
@@ -124,8 +127,8 @@ body {
   color: #ffffff;
 }
 .img-list {
-  margin-bottom: 24px;
 }
+
 .preis {
   display: flex;
   flex-direction: row;
@@ -139,6 +142,10 @@ body {
 
   background-color: #ffffff;
   border-radius: 200px;
+
+  position: absolute;
+  left: 24px;
+  top: 399px;
 }
 .preis-desc {
   font-weight: 500;
